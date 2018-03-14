@@ -294,6 +294,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             name: 'LaGuardia Airport',
             premium: false,
             wip: false
+        },
+        {
+            icao: 'klga_b',
+            level: 'hard',
+            name: 'LaGuardia Airport (Balanced Arrival Flow)',
+            premium: false,
+            wip: false
         // },
         // {
         //     icao: 'kmci',
