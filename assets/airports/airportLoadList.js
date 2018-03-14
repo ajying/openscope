@@ -57,20 +57,20 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
      * @final
      */
     return [
-        {
-            icao: 'cyhz',
-            level: 'beginner',
-            name: 'Halifax Stanfield International Airport',
-            premium: false,
-            wip: false
-        },
-        {
-            icao: 'cyow',
-            level: 'easy',
-            name: 'Ottawa Macdonald-Cartier International Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'cyhz',
+        //     level: 'beginner',
+        //     name: 'Halifax Stanfield International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
+        // {
+        //     icao: 'cyow',
+        //     level: 'easy',
+        //     name: 'Ottawa Macdonald-Cartier International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'ebbr',
         //     level: 'easy',
@@ -78,20 +78,20 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
-        {
-            icao: 'eddf',
-            level: 'hard',
-            name: 'Flughafen Frankfurt am Main',
-            premium: false,
-            wip: false
-        },
-        {
-            icao: 'eddh',
-            level: 'beginner',
-            name: 'Hamburg Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'eddf',
+        //     level: 'hard',
+        //     name: 'Flughafen Frankfurt am Main',
+        //     premium: false,
+        //     wip: false
+        // },
+        // {
+        //     icao: 'eddh',
+        //     level: 'beginner',
+        //     name: 'Hamburg Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'eddm',
         //     level: 'hard',
@@ -106,13 +106,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
-        {
-            icao: 'egcc',
-            level: 'easy',
-            name: 'Manchester Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'egcc',
+        //     level: 'easy',
+        //     name: 'Manchester Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'eggw',
         //     level: 'medium',
@@ -141,13 +141,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
-        {
-            icao: 'egnm',
-            level: 'beginner',
-            name: 'Leeds Bradford Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'egnm',
+        //     level: 'beginner',
+        //     name: 'Leeds Bradford Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'eham',
         //     level: 'medium',
@@ -176,13 +176,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
-        {
-            icao: 'engm',
-            level: 'easy',
-            name: 'Oslo Gardermoen International Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'engm',
+        //     level: 'easy',
+        //     name: 'Oslo Gardermoen International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'espa',
         //     level: 'easy',
@@ -211,20 +211,20 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: false
         // },
-        {
-            icao: 'kbos',
-            level: 'hard',
-            name: 'Boston Logan International Airport',
-            premium: false,
-            wip: false
-        },
-        {
-            icao: 'kdca',
-            level: 'easy',
-            name: 'Ronald Reagan Washington National Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'kbos',
+        //     level: 'hard',
+        //     name: 'Boston Logan International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
+        // {
+        //     icao: 'kdca',
+        //     level: 'easy',
+        //     name: 'Ronald Reagan Washington National Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'kdfw',
         //     level: 'hard',
@@ -294,14 +294,14 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             name: 'LaGuardia Airport',
             premium: false,
             wip: false
-        },
-        {
-            icao: 'kmci',
-            level: 'beginner',
-            name: 'Kansas City International Airport',
-            premium: false,
-            wip: false
-        },
+        // },
+        // {
+        //     icao: 'kmci',
+        //     level: 'beginner',
+        //     name: 'Kansas City International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'kmia',
         //     level: 'hard',
@@ -323,13 +323,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
-        {
-            icao: 'kpdx',
-            level: 'easy',
-            name: 'Portland International Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'kpdx',
+        //     level: 'easy',
+        //     name: 'Portland International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'kphx',
         //     level: 'easy',
@@ -337,13 +337,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
-        {
-            icao: 'kpit',
-            level: 'beginner',
-            name: 'Pittsburgh International Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'kpit',
+        //     level: 'beginner',
+        //     name: 'Pittsburgh International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'kpvd',
         //     level: 'beginner',
@@ -351,13 +351,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: false
         // },
-        {
-            icao: 'krdu',
-            level: 'easy',
-            name: 'Raleigh–Durham International Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'krdu',
+        //     level: 'easy',
+        //     name: 'Raleigh–Durham International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'ksdf',
         //     level: 'easy',
@@ -372,13 +372,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
-        {
-            icao: 'ksea',
-            level: 'hard',
-            name: 'Seattle-Tacoma International Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'ksea',
+        //     level: 'hard',
+        //     name: 'Seattle-Tacoma International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'ksfo',
         //     level: 'medium',
@@ -386,13 +386,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: false
         // },
-        {
-            icao: 'kstl',
-            level: 'medium',
-            name: 'St. Louis Lambert International Airport',
-            premium: false,
-            wip: false
-        },
+        // {
+        //     icao: 'kstl',
+        //     level: 'medium',
+        //     name: 'St. Louis Lambert International Airport',
+        //     premium: false,
+        //     wip: false
+        // },
         // {
         //     icao: 'ktpa',
         //     level: 'easy',
@@ -421,12 +421,12 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
-        {
-            icao: 'lszh',
-            level: 'medium',
-            name: 'Zürich Airport',
-            premium: false,
-            wip: false
+        // {
+        //     icao: 'lszh',
+        //     level: 'medium',
+        //     name: 'Zürich Airport',
+        //     premium: false,
+        //     wip: false
         // },
         // {
         //     icao: 'ltba',
