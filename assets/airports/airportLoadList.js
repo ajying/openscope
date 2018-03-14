@@ -267,6 +267,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: true
         // },
+        {
+            icao: 'kjfk_n',
+            level: 'hard',
+            name: 'John F Kennedy International Airport (New)',
+            premium: false,
+            wip: false
+        },
         // {
         //     icao: 'klas',
         //     level: 'hard',
