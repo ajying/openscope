@@ -289,6 +289,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     wip: true
         // },
         {
+            icao: 'klga',
+            level: 'hard',
+            name: 'LaGuardia Airport',
+            premium: false,
+            wip: false
+        },
+        {
             icao: 'kmci',
             level: 'beginner',
             name: 'Kansas City International Airport',
