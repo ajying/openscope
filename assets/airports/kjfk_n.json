@@ -8,7 +8,7 @@
     "iata": "JFK",
     "magnetic_north": -13.1,
     "ctr_radius": 60,
-    "ctr_ceiling": 19000,
+    "ctr_ceiling": 21000,
     "initial_alt": 5000,
     "position": ["N40d38.40", "W73d46.72", "13ft"],
     "rr_radius_nm": 20.0,
@@ -23,7 +23,7 @@
     "airspace": [
         {
             "floor": 0,
-            "ceiling": 190,
+            "ceiling": 200,
             "airspace_class": "B",
             "poly": [
                 ["N41d05.000", "W74d10.000"],
@@ -67,6 +67,7 @@
         "MERIT": ["N041d22m55.020", "W073d08m14.751"],
         "NEION": ["N041d13m41.210", "W074d34m50.779"],
         "NEWEL": ["N040d55m18.998", "W075d10m14.998"],
+		"OWENZ": ["N039d49m24.081", "W072d49m49.900"],
         "PANZE": ["N039d40m33.578", "W074d10m05.451"],
         "PARCH": ["N041d05m57.220", "W072d07m14.660"],
         "PARKE": ["N040d40m59.458", "W075d04m35.320"],
@@ -121,6 +122,23 @@
         }
     ],
     "stars": {
+		"CAMRN": {
+            "icao": "CAMRN",
+            "name": "Cameron",
+            "entryPoints": {
+                "OWENZ": ["OWENZ"]
+            },
+            "body": [
+                ["CAMRN", "A90|S250"],
+				"#041"
+            ],
+            "rwy": {
+                "KJFK": []
+            },
+            "draw": [
+                ["OWENZ*", "CAMRN"]
+            ]
+        },
         "CAMRN4": {
             "icao": "CAMRN4",
             "name": "Cameron Four",
@@ -200,6 +218,21 @@
         }
     },
     "spawnPatterns": [
+		{
+            "origin": "",
+            "destination": "KJFK_N",
+            "category": "arrival",
+            "route": "OWENZ.CAMRN.KJFK",
+            "altitude": 14000,
+            "speed": 250,
+            "method": "random",
+            "rate": 2.50,
+            "airlines": [
+                ["aal", 3],
+				["dal", 5],
+				["jbu", 4]
+            ]
+        },
         {
             "origin": "",
             "destination": "KJFK_N",
@@ -208,9 +241,14 @@
             "altitude": 24000,
             "speed": 250,
             "method": "random",
-            "rate": 18,
+            "rate": 13.67,
             "airlines": [
-                ["aal", 15]
+                ["aal", 7],
+				["dal", 17],
+				["edv", 14],
+				["eny", 2],
+				["jbu", 28],
+				["rpa", 3]
             ]
         },
 		{
@@ -221,9 +259,11 @@
             "altitude": 20000,
             "speed": 250,
             "method": "random",
-            "rate": 18,
+            "rate": 2.67,
             "airlines": [
-                ["aal", 15]
+				["edv", 7],
+				["eny", 2],
+				["jbu", 3]
             ]
         },
 		{
@@ -234,9 +274,14 @@
             "altitude": 23000,
             "speed": 250,
             "method": "random",
-            "rate": 18,
+            "rate": 9.33,
             "airlines": [
-                ["aal", 15]
+                ["aal", 12],
+				["dal", 17],
+				["edv", 10],
+				["eny", 4],
+				["jbu", 6],
+				["rpa", 2]
             ]
         },
 		{
@@ -244,12 +289,15 @@
             "destination": "KJFK_N",
             "category": "arrival",
             "route": "PARCH.PARCH2.KJFK",
-            "altitude": 20000,
+            "altitude": 18000,
             "speed": 250,
             "method": "random",
-            "rate": 18,
+            "rate": 11.00,
             "airlines": [
-                ["aal", 15]
+                ["aal", 8],
+				["dal", 10],
+				["edv", 4],
+				["jbu", 5]
             ]
         }
     ],
