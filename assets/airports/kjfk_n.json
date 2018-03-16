@@ -230,7 +230,9 @@
             "airlines": [
                 ["aal", 3],
 				["dal", 5],
-				["jbu", 4]
+				["jbu", 4],
+				["bwa", 1],
+				["ibk", 1]
             ]
         },
         {
@@ -244,11 +246,18 @@
             "rate": 13.67,
             "airlines": [
                 ["aal", 7],
-				["dal", 17],
+				["dal", 12],
+				["dal/long", 6],
 				["edv", 14],
 				["eny", 2],
 				["jbu", 28],
-				["rpa", 3]
+				["rpa", 3],
+                ["aij", 1],
+                ["amx", 5],
+                ["cmp", 1],
+                ["lne/long", 1],
+                ["lof", 2],
+                ["pdt", 2]
             ]
         },
 		{
@@ -263,7 +272,11 @@
             "airlines": [
 				["edv", 7],
 				["eny", 2],
-				["jbu", 3]
+				["jbu", 3],
+                ["ana", 1],
+                ["cca/b747", 1],
+                ["ces", 1],
+                ["cpa", 1]
             ]
         },
 		{
@@ -277,11 +290,16 @@
             "rate": 9.33,
             "airlines": [
                 ["aal", 12],
-				["dal", 17],
+				["dal", 6],
+				["dal/long", 11],
 				["edv", 10],
 				["eny", 4],
 				["jbu", 6],
-				["rpa", 2]
+				["rpa", 2],
+                ["qfa/long", 1],
+                ["vir/long", 2],
+                ["vrd", 1],
+                ["wja", 1]
             ]
         },
 		{
@@ -297,7 +315,31 @@
                 ["aal", 8],
 				["dal", 10],
 				["edv", 4],
-				["jbu", 5]
+				["jbu", 5],
+                ["afl/long", 1],
+                ["afr/long", 3],
+                ["asl", 1],
+                ["aua/long", 1],
+                ["aui/long", 1],
+                ["aza/long", 2],
+                ["baw/long", 6],
+                ["bel/long", 1],
+                ["dlh/long", 2],
+                ["ein/long", 2],
+                ["ely/long", 1],
+                ["etd/long", 1],
+                ["fin/long", 1],
+                ["ibe/long", 1],
+                ["klm/long", 1],
+                ["msr", 1],
+                ["qtr/long", 1],
+                ["rja/long", 1],
+                ["sia/a380", 1],
+                ["swr/long", 1],
+                ["tcx/long", 1],
+                ["thy/long", 1],
+                ["uae/a380", 2],
+                ["vir/long", 1]
             ]
         }
     ],
