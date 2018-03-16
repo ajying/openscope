@@ -260,13 +260,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: false
         // },
-        // {
-        //     icao: 'kjfk',
-        //     level: 'hard',
-        //     name: 'John F Kennedy International Airport',
-        //     premium: false,
-        //     wip: true
-        // },
+        {
+            icao: 'kjfk',
+            level: 'hard',
+            name: 'John F Kennedy International Airport',
+            premium: false,
+            wip: false
+        },
         // {
         //     icao: 'klas',
         //     level: 'hard',
