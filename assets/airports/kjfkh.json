@@ -4,7 +4,7 @@
         "app": "New York Approach",
         "dep": "New York Departure"
     },
-    "icao": "KJFK",
+    "icao": "KJFKH",
     "iata": "JFK",
     "magnetic_north": -13.1,
     "ctr_radius": 60,
@@ -220,13 +220,13 @@
     "spawnPatterns": [
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFKH",
             "category": "arrival",
             "route": "OWENZ.CAMRN.KJFK",
             "altitude": 14000,
             "speed": 250,
             "method": "random",
-            "rate": 2.50,
+            "rate": 4,
             "airlines": [
                 ["aal", 3],
                 ["dal", 5],
@@ -237,13 +237,13 @@
         },
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFKH",
             "category": "arrival",
             "route": "SIE.CAMRN4.KJFK",
             "altitude": 24000,
             "speed": 250,
             "method": "random",
-            "rate": 13.67,
+            "rate": 16,
             "airlines": [
                 ["aal", 7],
                 ["dal", 12],
@@ -262,13 +262,13 @@
         },
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFKH",
             "category": "arrival",
             "route": "IGN.IGN1.KJFK",
             "altitude": 20000,
             "speed": 250,
             "method": "random",
-            "rate": 2.67,
+            "rate": 5,
             "airlines": [
                 ["edv", 7],
                 ["eny", 2],
@@ -281,13 +281,13 @@
         },
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFKH",
             "category": "arrival",
             "route": "LVZ.LENDY6.KJFK",
             "altitude": 23000,
             "speed": 250,
             "method": "random",
-            "rate": 9.33,
+            "rate": 15,
             "airlines": [
                 ["aal", 12],
                 ["dal", 6],
@@ -304,13 +304,13 @@
         },
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFKH",
             "category": "arrival",
             "route": "PARCH.PARCH2.KJFK",
             "altitude": 18000,
             "speed": 250,
             "method": "random",
-            "rate": 11.00,
+            "rate": 20,
             "airlines": [
                 ["aal", 8],
                 ["dal", 10],

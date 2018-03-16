@@ -263,7 +263,42 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         {
             icao: 'kjfk',
             level: 'hard',
-            name: 'John F Kennedy International Airport',
+            name: 'John F Kennedy International Airport (31s)',
+            premium: false,
+            wip: false
+        },
+        {
+            icao: 'kjfk2',
+            level: 'hard',
+            name: 'John F Kennedy International Airport (22s)',
+            premium: false,
+            wip: false
+        },
+        {
+            icao: 'kjfk3',
+            level: 'hard',
+            name: 'John F Kennedy International Airport (13s)',
+            premium: false,
+            wip: false
+        },
+        {
+            icao: 'kjfk4',
+            level: 'hard',
+            name: 'John F Kennedy International Airport (4s)',
+            premium: false,
+            wip: false
+        },
+        {
+            icao: 'kjfkh',
+            level: 'hard',
+            name: 'John F Kennedy International Airport (31s) High AAR',
+            premium: false,
+            wip: false
+        },
+        {
+            icao: 'kjfkh3',
+            level: 'hard',
+            name: 'John F Kennedy International Airport (13s) High AAR',
             premium: false,
             wip: false
         },
@@ -296,7 +331,7 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             wip: false
         },
         {
-            icao: 'klga_b',
+            icao: 'klgab',
             level: 'hard',
             name: 'LaGuardia Airport (Balanced Arrival Flow)',
             premium: false,

@@ -4,7 +4,7 @@
         "app": "New York Approach",
         "dep": "New York Departure"
     },
-    "icao": "KLGA_B",
+    "icao": "KLGAB",
     "iata": "LGA",
     "magnetic_north": -13.1,
     "ctr_radius": 60,
@@ -354,7 +354,7 @@
     "spawnPatterns": [
         {
             "origin": "",
-            "destination": "KLGA",
+            "destination": "KLGAB",
             "category": "arrival",
             "route": "VALRE.HAARP3.KLGA",
             "altitude": 9000,
@@ -376,7 +376,7 @@
         },
         {
             "origin": "",
-            "destination": "KLGA",
+            "destination": "KLGAB",
             "category": "arrival",
             "route": "ENO.KORRY4.KLGA",
             "altitude": 24000,
@@ -402,7 +402,7 @@
         },
         {
             "origin": "",
-            "destination": "KLGA",
+            "destination": "KLGAB",
             "category": "arrival",
             "route": "MIP.MIP5.KLGA",
             "altitude": 18000,
