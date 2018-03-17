@@ -11,15 +11,15 @@
     "ctr_ceiling": 21000,
     "initial_alt": 5000,
     "position": ["N40d38.40", "W73d46.72", "13ft"],
-    "rr_radius_nm": 20.0,
+    "rr_radius_nm": 60.0,
     "rr_center": ["N40d38.40", "W73d46.72"],
     "has_terrain": false,
     "wind": {
         "angle": 0,
         "speed": 0
     },
-    "arrivalRunway": "31R",
-    "departureRunway": "31L",
+    "arrivalRunway": "4R",
+    "departureRunway": "4L",
     "airspace": [
         {
             "floor": 0,
@@ -90,7 +90,7 @@
                 ["N40d37.32", "W73d47.14", "12ft"],
                 ["N40d39.03", "W73d45.80", "13ft"]
             ],
-            "ils": [true, true],
+            "ils": [true, false],
             "glideslope": [3.00, 3.00]
         },
         {
@@ -99,7 +99,7 @@
                 ["N40d37.53", "W73d46.22", "12ft"],
                 ["N40d38.71", "W73d45.29", "12ft"]
             ],
-            "ils": [true, true],
+            "ils": [true, false],
             "glideslope": [3.00, 3.00]
         },
         {
@@ -108,7 +108,7 @@
                 ["N40d39.47", "W73d47.41", "11ft"],
                 ["N40d38.62", "W73d45.56", "12ft"]
             ],
-            "ils": [true, true],
+            "ils": [false, false],
             "glideslope": [3.00, 3.00]
         },
         {
@@ -117,7 +117,7 @@
                 ["N40d38.90", "W73d49.00", "13ft"],
                 ["N40d37.68", "W73d46.31", "13ft"]
             ],
-            "ils": [true, true],
+            "ils": [false, false],
             "glideslope": [3.00, 3.00]
         }
     ],
@@ -220,7 +220,7 @@
     "spawnPatterns": [
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFK4",
             "category": "arrival",
             "route": "OWENZ.CAMRN.KJFK",
             "altitude": 14000,
@@ -237,7 +237,7 @@
         },
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFK4",
             "category": "arrival",
             "route": "SIE.CAMRN4.KJFK",
             "altitude": 24000,
@@ -262,7 +262,7 @@
         },
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFK4",
             "category": "arrival",
             "route": "IGN.IGN1.KJFK",
             "altitude": 20000,
@@ -281,7 +281,7 @@
         },
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFK4",
             "category": "arrival",
             "route": "LVZ.LENDY6.KJFK",
             "altitude": 23000,
@@ -304,7 +304,7 @@
         },
         {
             "origin": "",
-            "destination": "KJFK",
+            "destination": "KJFK4",
             "category": "arrival",
             "route": "PARCH.PARCH2.KJFK",
             "altitude": 18000,
