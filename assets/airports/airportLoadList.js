@@ -225,6 +225,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     premium: false,
         //     wip: false
         // },
+        {
+            icao: 'kewr',
+            level: 'hard',
+            name: 'Newark International Airport',
+            premium: false,
+            wip: false
+        },
         // {
         //     icao: 'kdfw',
         //     level: 'hard',
