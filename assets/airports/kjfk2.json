@@ -271,11 +271,7 @@
         },
         {
             "origin": "",
-<<<<<<< HEAD
-            "destination": "KJFK",
-=======
             "destination": "KJFK2",
->>>>>>> zny_dev
             "category": "arrival",
             "route": "IGN.IGN1.KJFK",
             "altitude": 20000,
