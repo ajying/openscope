@@ -343,7 +343,7 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             name: 'LaGuardia Airport (Balanced Arrival Flow)',
             premium: false,
             wip: false
-        // },
+        },
         // {
         //     icao: 'kmci',
         //     level: 'beginner',
@@ -385,6 +385,20 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         //     name: 'Phoenix Sky Harbor International Airport',
         //     premium: false,
         //     wip: true
+        // },
+        {
+            icao: 'kphl',
+            level: 'hard',
+            name: 'Philadelphia International Airport (West Ops)',
+            premium: false,
+            wip: false
+        },
+        {
+            icao: 'kphle',
+            level: 'hard',
+            name: 'Philadelphia International Airport (East Ops)',
+            premium: false,
+            wip: false
         // },
         // {
         //     icao: 'kpit',
