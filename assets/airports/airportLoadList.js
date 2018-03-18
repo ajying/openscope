@@ -392,6 +392,13 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             name: 'Philadelphia International Airport (West Ops)',
             premium: false,
             wip: false
+        },
+        {
+            icao: 'kphle',
+            level: 'hard',
+            name: 'Philadelphia International Airport (East Ops)',
+            premium: false,
+            wip: false
         // },
         // {
         //     icao: 'kpit',
