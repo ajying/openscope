@@ -13,6 +13,7 @@
 
 ### Enhancements & Refactors
 - [#956](https://github.com/openscope/openscope/issues/956) - updated 'descend via STAR' documentation to change mentioning SID to STAR
+- [#961](https://github.com/openscope/openscope/issues/961) - updated climb and descent rates using Eurocontrol data
 
 
 
